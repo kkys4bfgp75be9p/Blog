@@ -27,6 +27,8 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+
+console.log("settings host: "+settings.host);
 app.use(session({
   resave:true,
   saveUninitialized:true,
