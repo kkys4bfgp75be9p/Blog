@@ -12,7 +12,7 @@ module.exports = function(app){
   return {
     cookieSecret: 'myblog',
     db: 'blog',
-    host: (app.get('env') === 'development')?'localhost':'172.31.30.244'
+    host: 'localhost'
   };
 }
 
