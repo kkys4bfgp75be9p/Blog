@@ -5,15 +5,11 @@
 
 
 
-module.exports = function(app){
-
-  console.log(app.get('env'));
-
-  return {
+module.exports = {
     cookieSecret: 'myblog',
     db: 'blog',
     host: 'localhost'
-  };
+
 }
 
 
